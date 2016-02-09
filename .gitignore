@@ -25,3 +25,30 @@ apps/packaging/appid.txt
 *.xcworkspace
 drafts
 
+
+# For API
+API/app/config/parameters.yml
+/API/app/config/parameters.yml
+API/build/
+/API/build/
+API/phpunit.xml
+/API/phpunit.xml
+API/var/*
+/API/var/*
+!API/var/cache
+API/var/cache/*
+/API/var/cache/*
+API!var/cache/.gitkeep
+API!/var/logs
+API/var/logs/*
+!API/var/logs/.gitkeep
+!API/var/sessions
+API/var/sessions/*
+!API/var/sessions/.gitkeep
+!API/var/SymfonyRequirements.php
+API/vendor/
+API/web/bundles/
+API/tests/
+/API/vendor/*
+/API/web/videos/*
+API/web/videos/*
